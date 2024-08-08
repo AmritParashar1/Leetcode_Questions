@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0007-reverse-integer) |
 | [1013-fibonacci-number](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/1013-fibonacci-number) |
 ## Dynamic Programming
 |  |
