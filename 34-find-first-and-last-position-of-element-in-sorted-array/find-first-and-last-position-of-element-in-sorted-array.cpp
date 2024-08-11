@@ -1,36 +1,50 @@
 class Solution {
 public:
-    vector<int> searchRange(vector<int>& nums, int target) {
-        vector<int> result = {-1, -1};
-        int left = binarySearch(nums, target, true);
-        int right = binarySearch(nums, target, false);
-        result[0] = left;
-        result[1] = right;
-        return result;        
-    }
+    int lowerbound(vector<int>& nums, int target) {
+        int n = nums.size();
+        int low = 0;
+        int high = n - 1;
+        int ans = n;
 
-    int binarySearch(vector<int>& nums, int target, bool isSearchingLeft) {
-        int left = 0;
-        int right = nums.size() - 1;
-        int idx = -1;
-        
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            
-            if (nums[mid] > target) {
-                right = mid - 1;
-            } else if (nums[mid] < target) {
-                left = mid + 1;
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (nums[mid] >= target) {
+                ans = mid;
+                high = mid - 1;
             } else {
-                idx = mid;
-                if (isSearchingLeft) {
-                    right = mid - 1;
-                } else {
-                    left = mid + 1;
-                }
+                low = mid + 1;
             }
         }
-        
-        return idx;
-    }    
+
+        return ans;
+    }
+
+    int upperbound(vector<int>& nums, int target) {
+        int n = nums.size();
+        int low = 0;
+        int high = n - 1;
+        int ans = n;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+
+            if (nums[mid] > target) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return ans;
+    }
+
+    vector<int> searchRange(vector<int>& nums, int target) {
+        int n = nums.size();
+
+        int lb = lowerbound(nums, target);
+        if (lb == n || nums[lb] != target) return {-1, -1};
+        return {lb, upperbound(nums, target) - 1};
+    }
 };
