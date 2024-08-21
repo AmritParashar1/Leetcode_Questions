@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0118-pascals-triangle](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0118-pascals-triangle) |
+| [0664-strange-printer](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0664-strange-printer) |
 | [1013-fibonacci-number](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/1013-fibonacci-number) |
 ## Recursion
 |  |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0125-valid-palindrome) |
+| [0664-strange-printer](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0664-strange-printer) |
 ## Array
 |  |
 | ------- |
