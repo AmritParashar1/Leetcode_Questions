@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0125-valid-palindrome](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0125-valid-palindrome) |
 | [0664-strange-printer](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0664-strange-printer) |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Array
 |  |
 | ------- |
@@ -110,4 +111,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0003-longest-substring-without-repeating-characters) |
+## Stack
+|  |
+| ------- |
+| [1128-remove-all-adjacent-duplicates-in-string](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 <!---LeetCode Topics End-->
