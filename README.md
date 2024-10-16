@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0125-valid-palindrome) |
 | [0664-strange-printer](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/0664-strange-printer) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 ## Array
 |  |
 | ------- |
@@ -115,4 +116,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/2021-remove-all-occurrences-of-a-substring) |
+## Simulation
+|  |
+| ------- |
+| [2021-remove-all-occurrences-of-a-substring](https://github.com/AmritParashar1/Leetcode_Questions/tree/master/2021-remove-all-occurrences-of-a-substring) |
 <!---LeetCode Topics End-->
