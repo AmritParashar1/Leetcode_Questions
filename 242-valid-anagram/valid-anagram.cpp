@@ -1,19 +1,21 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
+        int hashtable[256] = {0};
 
-        int n = s.length();
-        int m = t.length();
+        for(int i=0;i<s.length();i++) {
+            hashtable[s[i]]++; 
+        }
 
-        // if(n!=m) return false;
+        for(int i=0;i<t.length();i++) {
+            hashtable[t[i]]--;
+        }
 
-        sort(s.begin(),s.end());
-
-        sort(t.begin(),t.end());
-
-        return s==t;
-
-        
-        
+        for(int i=0;i<256;i++) {
+            if(hashtable[i]!=0) {
+                return false;
+            }
+        }
+        return true;
     }
 };
